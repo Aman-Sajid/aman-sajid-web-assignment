@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAF-IAST | Institute of Applied Sciences and Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="PAF-IAST Logo" class="logo-image">
+                <div class="logo-text">
+                    <span class="logo-main">PAF-IAST</span>
+                    <span class="logo-sub">Excellence in Education</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#admissions" class="nav-link">Admissions</a>
+                <a href="#facilities" class="nav-link">Facilities</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="apply-btn-nav">Apply Now</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-subtitle">Welcome to</span>
+                <h1 class="hero-title">PAK-AUSTRIA FACHHOCHSCHULE</h1>
+                <h2 class="hero-subtitle-large">Institute of Applied Sciences & Technology</h2>
+                <p class="hero-description">Empowering future leaders through world-class education and innovative research in partnership with Austrian excellence</p>
+                <div class="hero-buttons">
+                    <a href="#admissions" class="btn btn-primary">
+                        <i class="fas fa-user-graduate"></i> Apply for Admission
+                    </a>
+                    <a href="#programs" class="btn btn-secondary">
+                        <i class="fas fa-book"></i> Explore Programs
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3>5000+</h3>
+                    <p>Students</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>200+</h3>
+                    <p>Faculty Members</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-award"></i>
+                    <h3>50+</h3>
+                    <p>Programs</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>International</h3>
+                    <p>Partnerships</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Discover PAF-IAST</span>
+                <h2 class="section-title">About Our Institution</h2>
+                <p class="section-description">A premier institution dedicated to academic excellence and innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/campus.jpg" alt="PAF-IAST Campus" class="campus-image">
+                    <div class="about-badge">
+                        <i class="fas fa-medal"></i>
+                        <span>Established 2019</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Leading Institute of Higher Education</h3>
+                    <p>PAF-IAST is a distinguished institution established through collaboration between Pakistan and Austria, offering world-class education in applied sciences and technology. Our mission is to develop skilled professionals equipped with cutting-edge knowledge and practical expertise.</p>
+                    <p>We pride ourselves on our state-of-the-art facilities, internationally recognized faculty, and strong industry partnerships that provide our students with unparalleled learning opportunities.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>HEC Recognized Programs</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>International Faculty</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Modern Infrastructure</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry Partnerships</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Academic Excellence</span>
+                <h2 class="section-title">Our Programs</h2>
+                <p class="section-description">Choose from our diverse range of undergraduate and graduate programs</p>
+            </div>
+            <div class="program-tabs">
+                <button class="tab-btn active" data-tab="undergraduate">Undergraduate</button>
+                <button class="tab-btn" data-tab="graduate">Graduate</button>
+                <button class="tab-btn" data-tab="diploma">Diploma</button>
+            </div>
+            <div class="program-content">
+                <div class="tab-content active" id="undergraduate">
+                    <div class="program-grid">
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h3>Computer Science</h3>
+                            <p>Bachelor of Science in Computer Science with focus on AI, Machine Learning, and Software Development</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-microchip"></i></div>
+                            <h3>Electrical Engineering</h3>
+                            <p>Comprehensive program in Electronics, Power Systems, and Telecommunications</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-cogs"></i></div>
+                            <h3>Mechanical Engineering</h3>
+                            <p>Advanced studies in Thermodynamics, Manufacturing, and Automotive Engineering</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>Business Administration</h3>
+                            <p>BBA with specializations in Finance, Marketing, and Human Resource Management</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-building"></i></div>
+                            <h3>Civil Engineering</h3>
+                            <p>Structural Design, Construction Management, and Urban Planning</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-network-wired"></i></div>
+                            <h3>Telecommunication</h3>
+                            <p>Advanced networking, Wireless Communications, and IoT Technologies</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 4 Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="graduate">
+                    <div class="program-grid">
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-brain"></i></div>
+                            <h3>MS Computer Science</h3>
+                            <p>Advanced research in Artificial Intelligence, Data Science, and Cybersecurity</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-industry"></i></div>
+                            <h3>MS Engineering Management</h3>
+                            <p>Leadership in technology-driven organizations and project management</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-briefcase"></i></div>
+                            <h3>MBA</h3>
+                            <p>Master of Business Administration with focus on Strategic Management</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-flask"></i></div>
+                            <h3>MS Electrical Engineering</h3>
+                            <p>Research-oriented program in Power Electronics and Renewable Energy</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="diploma">
+                    <div class="program-grid">
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-wrench"></i></div>
+                            <h3>Diploma in Automotive Technology</h3>
+                            <p>Practical training in vehicle maintenance and automotive systems</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-server"></i></div>
+                            <h3>Diploma in IT</h3>
+                            <p>Web Development, Database Management, and Network Administration</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Diploma in Mechatronics</h3>
+                            <p>Integration of Mechanical, Electronics, and Computer Engineering</p>
+                            <span class="program-duration"><i class="fas fa-clock"></i> 2 Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="admissions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Join Us</span>
+                <h2 class="section-title">Admissions Open Spring 2026</h2>
+                <p class="section-description">Start your journey towards excellence with PAF-IAST</p>
+            </div>
+            <div class="admissions-content">
+                <div class="admission-box">
+                    <div class="admission-header undergraduate-bg">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Undergraduate Programs</h3>
+                    </div>
+                    <div class="admission-body">
+                        <div class="admission-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <strong>Application Deadline</strong>
+                                <p>March 15, 2026</p>
+                            </div>
+                        </div>
+                        <div class="admission-item">
+                            <i class="fas fa-file-alt"></i>
+                            <div>
+                                <strong>Requirements</strong>
+                                <p>Intermediate or Equivalent</p>
+                            </div>
+                        </div>
+                        <div class="admission-item">
+                            <i class="fas fa-clipboard-check"></i>
+                            <div>
+                                <strong>Entry Test</strong>
+                                <p>Required (PAF-IAST Test)</p>
+                            </div>
+                        </div>
+                        <button class="admission-btn">Apply for Undergraduate</button>
+                    </div>
+                </div>
+                <div class="admission-box">
+                    <div class="admission-header graduate-bg">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Graduate Programs</h3>
+                    </div>
+                    <div class="admission-body">
+                        <div class="admission-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <strong>Application Deadline</strong>
+                                <p>March 20, 2026</p>
+                            </div>
+                        </div>
+                        <div class="admission-item">
+                            <i class="fas fa-file-alt"></i>
+                            <div>
+                                <strong>Requirements</strong>
+                                <p>Bachelor's Degree (16 years)</p>
+                            </div>
+                        </div>
+                        <div class="admission-item">
+                            <i class="fas fa-clipboard-check"></i>
+                            <div>
+                                <strong>Entry Test</strong>
+                                <p>GAT General (NTS)</p>
+                            </div>
+                        </div>
+                        <button class="admission-btn">Apply for Graduate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="admission-process">
+                <h3>Admission Process</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Submit Application</h4>
+                        <p>Fill online form with required documents</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Entry Test</h4>
+                        <p>Appear in admission test</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Interview</h4>
+                        <p>Shortlisted candidates interview</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Enrollment</h4>
+                        <p>Complete fee payment and registration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">World-Class Infrastructure</span>
+                <h2 class="section-title">Campus Facilities</h2>
+                <p class="section-description">State-of-the-art facilities designed for holistic student development</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/lab.jpg" alt="Advanced Laboratories">
+                    </div>
+                    <h3>Advanced Laboratories</h3>
+                    <p>Modern labs equipped with latest technology for practical hands-on learning</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/library.jpeg" alt="Digital Library">
+                    </div>
+                    <h3>Digital Library</h3>
+                    <p>Extensive collection of books, journals, and online research databases</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/greencampus.jpeg" alt="WiFi Campus">
+                    </div>
+                    <h3>WiFi Campus</h3>
+                    <p>High-speed internet connectivity throughout the campus</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/sports.jpg" alt="Sports Complex">
+                    </div>
+                    <h3>Sports Complex</h3>
+                    <p>Multi-purpose sports facilities for cricket, football, and indoor games</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/cafeteria.jpg" alt="Cafeteria">
+                    </div>
+                    <h3>Cafeteria</h3>
+                    <p>Hygienic food court with variety of meal options</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="images/transportation.jpg" alt="Transportation">
+                    </div>
+                    <h3>Transportation</h3>
+                    <p>Dedicated bus service covering major routes in the city</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Innovation & Discovery</span>
+                <h2 class="section-title">Research Centers</h2>
+                <p class="section-description">Advancing knowledge through cutting-edge research initiatives</p>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon ai-icon">
+                        <img src="images/research-ai.jpg" alt="AI & Machine Learning Lab">
+                    </div>
+                    <h3>AI & Machine Learning Lab</h3>
+                    <p>Research in artificial intelligence, deep learning, and intelligent systems for real-world applications</p>
+                    <a href="#" class="research-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon energy-icon">
+                        <img src="images/research-energy.jpg" alt="Renewable Energy Center">
+                    </div>
+                    <h3>Renewable Energy Center</h3>
+                    <p>Innovative solutions in solar energy, wind power, and sustainable energy systems</p>
+                    <a href="#" class="research-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon robotics-icon">
+                        <img src="images/research-robotics.jpg" alt="Robotics & Automation">
+                    </div>
+                    <h3>Robotics & Automation</h3>
+                    <p>Advanced robotics, industrial automation, and mechatronics research projects</p>
+                    <a href="#" class="research-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon data-icon">
+                        <img src="images/research-data.jpg" alt="Data Science Hub">
+                    </div>
+                    <h3>Data Science Hub</h3>
+                    <p>Big data analytics, data mining, and business intelligence research</p>
+                    <a href="#" class="research-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">We're here to answer your questions and help you get started</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info-section">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to us through any of the following channels</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>PAF Complex, E-9, Islamabad, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+92-51-111-723-466</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="254c4b434a65554443084c4456510b4041500b554e">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Working Hours</strong>
+                                <p>Mon - Fri: 8:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <div class="success-alert" id="successAlert">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Message sent successfully! We'll respond within 24 hours.</span>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="fullName">Full Name <span class="required">*</span></label>
+                                <input type="text" id="fullName" name="fullName" placeholder="John Doe">
+                                <span class="field-error">Please enter your full name</span>
+                            </div>
+                            <div class="form-field">
+                                <label for="emailAddress">Email Address <span class="required">*</span></label>
+                                <input type="email" id="emailAddress" name="emailAddress" placeholder="john@example.com">
+                                <span class="field-error">Please enter a valid email</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+92 300 1234567">
+                                <span class="field-error">Please enter a valid phone number</span>
+                            </div>
+                            <div class="form-field">
+                                <label for="inquiryType">Inquiry Type <span class="required">*</span></label>
+                                <select id="inquiryType" name="inquiryType">
+                                    <option value="">Select Type</option>
+                                    <option value="admission">Admission Inquiry</option>
+                                    <option value="programs">Program Information</option>
+                                    <option value="research">Research Collaboration</option>
+                                    <option value="general">General Question</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="field-error">Please select inquiry type</span>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="messageText">Your Message <span class="required">*</span></label>
+                            <textarea id="messageText" name="messageText" rows="5" placeholder="Write your message here..."></textarea>
+                            <span class="field-error">Please enter your message (minimum 10 characters)</span>
+                        </div>
+                        <button type="submit" class="submit-button" id="submitButton">
+                            <span class="button-text">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="PAF-IAST Logo" class="footer-logo-image">
+                        <div>
+                            <h3>PAF-IAST</h3>
+                            <p>Institute of Applied Sciences & Technology</p>
+                        </div>
+                    </div>
+                    <p class="footer-about">PAF-IAST is committed to providing world-class education and fostering innovation through research and development.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> E-9, Islamabad</li>
+                        <li><i class="fas fa-phone"></i> +92-51-111-723-466</li>
+                        <li><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d1b8bfb7be91a1b0b7fcb8b0a2a5ffb4b5a4ffa1ba">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PAF-IAST. All Rights Reserved. | Designed with Love for Excellence
